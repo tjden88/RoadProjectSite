@@ -1,6 +1,9 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+// Файл конфигурации
+var appCfg = app.Configuration;
+
+app.MapGet("/", () => appCfg["CompanyName"]);
 
 app.Run();
