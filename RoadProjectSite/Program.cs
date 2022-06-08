@@ -14,7 +14,11 @@ var app = builder.Build();
 // Настройка приложения и маршрутизации
 #region App
 
-if (app.Environment.IsDevelopment()) app.UseDeveloperExceptionPage();
+if (app.Environment.IsDevelopment())
+{
+    //app.Urls.Add("http://+:80");
+    app.UseDeveloperExceptionPage();
+}
 
 app.UseRouting();
 
