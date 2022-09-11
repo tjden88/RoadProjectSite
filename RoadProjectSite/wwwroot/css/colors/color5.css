@@ -1,0 +1,180 @@
+a:hover, a:focus {color:#ec3676;}
+
+.color_text {color:#ec3676;}
+
+.color_bg {background-color:#ec3676;}
+
+.overlay {background-color: #ec3676;}
+
+
+/* __________ Buttons __________ */
+.btn {color:#fff; background: #333;}
+.btn:focus, .btn:hover {color:#fff; background-color:#ec3676;}
+
+
+/* colors */
+.btn-white {color:#ec3676; background:#fff;}
+.btn-white:hover {color:#fff; background:#333;}
+
+.btn-light {background:#aeaeae;}
+.btn-light:hover {background:#333; color:#fff;}
+
+.btn-active {color:#fff; background-color:#ec3676;}
+.btn-active:hover {color:#fff; background-color:#333;}
+
+
+/* _________ //Buttons _________ */
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	INDEX PAGE
+/*-----------------------------------------------------------------------------------*/
+.navbar-nav li:hover a, .navbar-nav li a:focus, .navbar-nav li.active a {color:#ec3676;}
+
+
+.service_item a:hover i {background-color:#ec3676;}
+.service_item i:after {border:2px solid #ec3676;}
+.service_item a:hover p {color:#ec3676;}
+
+
+.inform_block #newsletter-form input[type="submit"] {background-color:#ec3676;}
+.inform_block #newsletter-form input[type="submit"]:hover {color:#ec3676;}
+
+
+.service_item a:hover i {background-color:#ec3676;}
+.service_item a i:after {border:2px solid #ec3676;}
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	//INDEX PAGE
+/*-----------------------------------------------------------------------------------*/
+
+
+.navbar-toggle:hover em {background-color:#ec3676;}
+
+
+
+/* __________ Blog __________ */
+
+
+.FlickrImages li a {background-color:#ec3676;}
+
+footer .tweet_module .tweet_time a {color:#ec3676;}
+
+.foot_menu li a:hover, .foot_menu li.active a {color:#ec3676;}
+
+.tweet_module.index_page {background-color:#ec3676;}
+/* _________ //Blog _________ */
+
+
+/* __________ About __________ */
+/* __________ Skills __________ */
+.progress-complete {background: #ec3676;}
+/* _________ //About _________ */
+
+
+/* __________ Portfolio __________ */
+#filter li a:hover, #filter li a.selected {color:#ec3676;}
+
+/* _________ //Portfolio _________ */
+
+
+/* __________ Shop __________ */
+.product_sort #filter li a:hover, .product_sort #filter li a.selected {color:#ec3676;}
+
+#price-range .ui-widget-header {background: #ec3676;}
+
+.product_item2:hover {border-color:#ec3676;}
+
+.product_inf .btn:hover {background-color:#ec3676; border-color:#ec3676;}
+
+.variable-sizes .product_item .item_btn_in a.btn:hover {background-color:#ec3676;}
+
+.sale {background-color:#ec3676;}
+
+.type2 .product_price {color:#ec3676;}
+.quantity_block .product_inf .btn.add_cart {border-color:#ec3676; color:#ec3676;}
+.quantity_block .product_inf .btn.add_cart:hover {border-color:#ec3676; background-color:#ec3676;}
+/* _________ //Shop _________ */
+
+
+/* __________ Shortcodes __________ */
+.nav-tabs li a:hover {color:#ec3676;}
+.divider_colored {border-color:#ec3676;}
+
+.most_popular .price_item_btn a, .price_item_btn a:hover {background:#ec3676;}
+.most_popular .price_item_title {background:#ec3676;}
+
+blockquote.type3:before {background-color:#ec3676;}
+/* _________ //Shortcodes _________ */
+
+
+/* __________ Footer __________ */
+footer h3 {color:#ec3676;}
+footer a {color:#9b9b9b ;}
+footer a:hover {color:#fff;}
+
+.foot_links li span {color:#ec3676;}
+
+.copyright span {color:#ec3676;}
+
+footer .recent_posts li:hover .post_title {color:#ec3676;}
+
+
+#newsletter-form input.contact_btn {background-color:#ec3676;}
+/* _________ //Footer _________ */
+
+
+.search_form input.search_btn {background-color:#ec3676 !important;}
+
+
+.jCarousel_pagination a:hover {background-color:#ec3676;}
+
+
+.most_popular .price_item_cost h2,
+.most_popular .price_item_cost h2 span {
+	color:#ec3676;
+}
+
+
+.jcarousel-pagination a {background-color:#ec3676;}
+
+.flex-control-paging li a:hover {background-color:#ec3676;}
+.flex-control-paging li a.flex-active {background-color:#ec3676;}
+
+footer input.contact_btn:hover {background-color:#ec3676;}
+
+
+#accordion .ui-accordion-header:hover,
+#accordion .ui-accordion-header.ui-accordion-header-active,
+.shortcode_toggles_item_title:hover,
+.shortcode_toggles_item_title .ui-state-active {
+	background:#ec3676;
+	border-color:#ec3676;
+}
+
+.cart-subtotal strong {color:#ec3676;}
+
+.product_item .project_descr h4 a:hover {color:#ec3676;}
+
+#toggle-sizes a:hover {color:#ec3676;}
+
+
+.social a:hover {background-color: #ec3676;}
+.product_social a:hover {background-color:#ec3676;}
+
+.tags a:hover {background-color:#ec3676;}
+
+
+.portfolio_block .project:hover .project_descr {border-bottom-color:#ec3676;}
+
+
+
+
+
+
