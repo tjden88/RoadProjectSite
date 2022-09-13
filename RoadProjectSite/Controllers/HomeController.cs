@@ -8,5 +8,16 @@ namespace RoadProjectSite.Controllers
         {
             return View();
         }
+
+        [Route("Error/{Code}")]
+        public IActionResult Error(int Code)
+        {
+            if (Code == 404)
+            {
+                return View("NotFoundPage");
+            }
+
+            return StatusCode(Code);
+        }
     }
 }
