@@ -19,11 +19,14 @@ app.MapGet("/debug", () => appCfg["CompanyName"]);
 // Настройка приложения и маршрутизации
 #region App
 
+app.UseHttpsRedirection();
+
 if (app.Environment.IsDevelopment())
 {
     //app.Urls.Add("http://+:80");
     app.UseDeveloperExceptionPage();
 }
+
 
 app.UseStaticFiles();
 
