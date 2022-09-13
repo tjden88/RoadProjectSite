@@ -25,6 +25,7 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
+app.UseStaticFiles();
 
 app.Use(async (context, next) => // Заглушка недоступного сайта
 {
@@ -37,7 +38,6 @@ app.Use(async (context, next) => // Заглушка недоступного с
 
 app.UseStatusCodePagesWithRedirects("/Error/{0}"); // 404 страница для всех неверных адресов
 
-app.UseStaticFiles();
 app.UseRouting();
 
 app.MapDefaultControllerRoute();
