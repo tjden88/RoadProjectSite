@@ -26,22 +26,23 @@ if (app.Environment.IsDevelopment())
 }
 
 
-//app.Use(async (context, next) => // 404 страница для всех неверных адресов
-//{
-//    await next();
-//    if (appCfg["SiteIsNotAvaliable"] == "True")
-//    {
-//        context.Request.Path = "/Home/NotFoundPage";
-//        await next();
-//    }
-//});
+app.Use(async (context, next) => // Заглушка недоступного сайта
+{
+    if (appCfg["SiteIsNotAvaliable"] == "True")
+    {
+        context.Request.Path = "/Home/SiteNotAvaliable";
+    }
+    await next();
+});
 
-app.UseStatusCodePagesWithRedirects("/Error/{0}"); // 404 страница для всех неверных адресов вариант 2
+app.UseStatusCodePagesWithRedirects("/Error/{0}"); // 404 страница для всех неверных адресов
 
 app.UseStaticFiles();
 app.UseRouting();
 
 app.MapDefaultControllerRoute();
+
+
 
 #endregion
 

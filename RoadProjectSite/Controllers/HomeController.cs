@@ -19,5 +19,7 @@ namespace RoadProjectSite.Controllers
 
             return StatusCode(Code);
         }
+
+        public IActionResult SiteNotAvaliable() => View();
     }
 }
