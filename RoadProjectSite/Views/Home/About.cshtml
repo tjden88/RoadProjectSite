@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Контакты";
+}
+<!-- CONTACT INFO -->
+<section class="contacts_block">
+
+    <!-- MAP -->
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2182.7923086262294!2d60.58596331616896!3d56.83235238085589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16ef6bf01bae1%3A0x77dc89c410d6d53f!2z0YPQuy4g0JzQsNC70YvRiNC10LLQsCwgMTLQkSwg0JXQutCw0YLQtdGA0LjQvdCx0YPRgNCzLCDQodCy0LXRgNC00LvQvtCy0YHQutCw0Y8g0L7QsdC7LiwgNjIwMDE0!5e0!3m2!1sru!2sru!4v1663205061985!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div><!-- //MAP -->
+    <!-- CONTAINER -->
+    <div class="container">
+
+        <!-- ROW -->
+        <div class="row">
+            <div class="col-lg-5 col-sm-5 padbot20" data-animated="fadeIn">
+                <h2>Напишите нам</h2>
+
+                <!-- CONTACT FORM -->
+                <div class="contact_form top_form">
+                    <div id="note"></div>
+                    <div id="fields">
+                        <form id="ajax-contact-form" action="">
+                            <label>Name</label>
+                            <input type="text" name="name" value="" placeholder="Ваше имя" />
+                            <label>Email</label>
+                            <input type="text" name="email" value="" placeholder="Ваш Email" />
+                            <label>Subject</label>
+                            <textarea name="message" placeholder="Ваше сообщение"></textarea><br>
+                            <input class="contact_btn sent_btn" type="submit" value="Отправить сообщение" />
+                        </form>
+                    </div>
+                </div><!-- //CONTACT FORM -->
+            </div>
+            <div class="col-lg-7 col-sm-7 padbot20" data-animated="fadeIn">
+                <h2>О компании</h2>
+
+                <!-- CONTACT INFO -->
+                <ul class="list4 contacts_info">
+                    <li>
+                        <span>
+                            Общество с ограниченной ответственностью «АгроНефтеХимПроект»
+                            <br/>
+                            ОКПО 90054494
+                            <br/>
+                            ОГРН 1106671026615
+                            <br/>
+                            ИНН/КПП  6671346520/667101001
+                        </span>
+                    </li>
+
+                    <li/>
+                    <li><b class="fe icon_pin"></b><span>620014, г.Екатеринбург, ул.Малышева, д.12-б, 3 этаж</span></li>
+                    <li><b class="fe icon_mail"></b><span><a href="mailto:afursov66@gmail.com" alt="">afursov66@gmail.com</a></span></li>
+                    <li><b class="fe icon_phone"></b><span>+7 (912) 600-10-88</span></li>
+                </ul><!-- //CONTACT INFO -->
+            </div>
+        </div><!-- //ROW -->
+    </div><!-- //CONTAINER -->
+</section><!-- //CONTACTS INFO -->

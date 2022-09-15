@@ -1,0 +1,46 @@
+﻿<!-- HEADER -->
+<header>
+
+    <!-- MENU -->
+    <div class="menu_block clearfix">
+
+        <!-- CONTAINER -->
+        <div class="container clearfix">
+
+            <!-- LOGO -->
+            <div class="logo">
+                <a asp-action="Index" asp-controller="Home">@ViewBag.CompanyName</a>
+            </div><!-- LOGO -->
+            <!-- RESPONSIVE BUTTON MENU -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <em></em><em></em><em></em><em></em>
+                </button>
+            </div><!-- //RESPONSIVE BUTTON MENU -->
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="first active"><a asp-action="Index" asp-controller="Home">Главная</a></li>
+
+                    <li class="sub-menu">
+                        <a asp-controller="Info" asp-action="Services">Услуги</a>
+                        <ul class="mega_menu left">
+                            <li><a asp-controller="Info" asp-action="Podd"><span>-</span>ПОДД</a></li>
+                            <li><a asp-controller="Info" asp-action="Laboratory"><span>-</span>Передвижная лаборатория</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-menu">
+                        <a asp-controller="Info" asp-action="Progs">Рабочие программы</a>
+                        <ul class="mega_menu left">
+                            <li><a asp-controller="Info" asp-action="ProgTitul"><span>-</span>Программный комплекс Титул-2005</a></li>
+                            <li><a asp-controller="Info" asp-action="ProgRoadPro"><span>-</span>ПИК Дорога-ПРО</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a asp-controller="Projects" asp-action="Index">Пример проекта</a></li>
+                    <li class="last"><a asp-controller="Home" asp-action="About">Контакты</a></li>
+                </ul>
+            </div>
+        </div><!-- //CONTAINER -->
+    </div><!-- //MENU -->
+</header><!-- //HEADER -->
