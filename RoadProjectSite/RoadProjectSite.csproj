@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Projects\Index.cshtml" />
     <_ContentIncludedByDefault Remove="Views\Home\About.cshtml" />
     <_ContentIncludedByDefault Remove="Views\Home\SiteNotAvaliable.cshtml" />
     <_ContentIncludedByDefault Remove="Views\Info\Laboratory.cshtml" />
@@ -35,6 +36,10 @@
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Views\Info\Laboratory.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Projects\Index.cshtml" />
   </ItemGroup>
 
 </Project>
