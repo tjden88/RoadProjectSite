@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Views\Info\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,10 +21,15 @@
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Views\Home\About.cshtml" />
     <_ContentIncludedByDefault Remove="Views\Home\SiteNotAvaliable.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Info\Podd.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Views\Home\About.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Info\Podd.cshtml" />
   </ItemGroup>
 
 </Project>
