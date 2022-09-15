@@ -13,13 +13,10 @@ var app = builder.Build();
 
 // Файл конфигурации
 var appCfg = app.Configuration;
-app.MapGet("/debug", () => appCfg["CompanyName"]);
 
 
 // Настройка приложения и маршрутизации
 #region App
-
-app.UseHttpsRedirection();
 
 if (app.Environment.IsDevelopment())
 {
@@ -46,10 +43,7 @@ app.UseRouting();
 app.MapDefaultControllerRoute();
 
 
-
 #endregion
-
-
 
 
 app.Run();
