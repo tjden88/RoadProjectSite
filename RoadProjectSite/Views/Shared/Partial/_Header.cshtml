@@ -23,22 +23,22 @@
                     <li class="first active"><a asp-action="Index" asp-controller="Home">Главная</a></li>
 
                     <li class="sub-menu">
-                        <a href="#">Услуги</a>
+                        <a asp-controller="Info" asp-action="Services">Услуги</a>
                         <ul class="mega_menu left">
-                            <li><a href="about.html"><span>-</span>ПОДД</a></li>
-                            <li><a href="shop.html"><span>-</span>Передвижная лаборатория</a></li>
+                            <li><a asp-controller="Info" asp-action="Podd"><span>-</span>ПОДД</a></li>
+                            <li><a asp-controller="Info" asp-action="Laboratory"><span>-</span>Передвижная лаборатория</a></li>
                         </ul>
                     </li>
                     <li class="sub-menu">
-                        <a href="#">Рабочие программы</a>
+                        <a asp-controller="Info" asp-action="Progs">Рабочие программы</a>
                         <ul class="mega_menu left">
-                            <li><a href="about.html"><span>-</span>Программный комплекс Титул-2005</a></li>
-                            <li><a href="shop.html"><span>-</span>ПИК Дорога-ПРО</a></li>
+                            <li><a asp-controller="Info" asp-action="ProgTitul"><span>-</span>Программный комплекс Титул-2005</a></li>
+                            <li><a asp-controller="Info" asp-action="ProgRoadPro"><span>-</span>ПИК Дорога-ПРО</a></li>
                         </ul>
 
                     </li>
-                    <li><a href="#">Пример проекта</a></li>
-                    <li class="last"><a href="#">Контакты</a></li>
+                    <li><a asp-controller="Projects" asp-action="Index">Пример проекта</a></li>
+                    <li class="last"><a asp-controller="Home" asp-action="About">Контакты</a></li>
                 </ul>
             </div>
         </div><!-- //CONTAINER -->

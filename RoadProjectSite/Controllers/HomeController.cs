@@ -21,5 +21,7 @@ namespace RoadProjectSite.Controllers
         }
 
         public IActionResult SiteNotAvaliable() => View();
+
+        public IActionResult About() => View();
     }
 }
