@@ -1,4 +1,9 @@
-﻿@{
-    ViewBag.Title = "Проектирование дорог";
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration _Configuration
+
+@{
+    var companyName = _Configuration["CompanyName"];
+    ViewBag.CompanyName = companyName;
+    ViewBag.Title = companyName;
     Layout = "_Layout";
 }
